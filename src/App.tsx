@@ -1115,12 +1115,13 @@ const ContactSection = () => {
           )}
         </div>
 
-        {(contactConfig.copyright || contactConfig.tagline) && (
-          <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-            {contactConfig.copyright && <span className="font-mono-label text-white/40">{contactConfig.copyright}</span>}
-            {contactConfig.tagline && <span className="font-mono-label text-white/40">{contactConfig.tagline}</span>}
-          </div>
-        )}
+        <div className="mt-20 pt-8 border-t border-white/10 flex flex-col lg:flex-row justify-between items-center gap-4">
+          {contactConfig.copyright && <span className="font-mono-label text-white/40 flex-1 text-center lg:text-left">{contactConfig.copyright}</span>}
+          <span className="font-mono-label text-white/60 flex-1 text-center">
+            built with ❤️ by <a href="https://moebarbar.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-lipstick-pink transition-colors underline decoration-white/20 underline-offset-4">Moe Barbar</a> | <a href="https://www.instagram.com/immoebarbar" target="_blank" rel="noopener noreferrer" className="text-white hover:text-lipstick-pink transition-colors underline decoration-white/20 underline-offset-4">Instagram</a>
+          </span>
+          {contactConfig.tagline && <span className="font-mono-label text-white/40 flex-1 text-center lg:text-right hidden md:block">{contactConfig.tagline}</span>}
+        </div>
       </div>
     </section>
   );
