@@ -406,10 +406,10 @@ const ManifestoSection = () => {
         {/* Row 2 */}
         <div className="grid-tile" />
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '10% 20%' }} />
+          <img loading="lazy" src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '10% 20%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 20%' }} />
+          <img loading="lazy" src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 20%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {manifestoConfig.phrases.slice(0, 4).map((phrase, i) => (
@@ -419,13 +419,13 @@ const ManifestoSection = () => {
         {/* Row 3 */}
         <div className="grid-tile" />
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '10% 50%' }} />
+          <img loading="lazy" src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '10% 50%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 50%' }} />
+          <img loading="lazy" src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 50%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 50%' }} />
+          <img loading="lazy" src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 50%' }} />
         </div>
         {manifestoConfig.phrases.slice(4, 6).map((phrase, i) => (
           <div key={i} className="grid-tile text-tile"><span className="tile-text">{phrase}</span></div>
@@ -436,7 +436,7 @@ const ManifestoSection = () => {
         {/* Row 4 */}
         <div className="grid-tile" />
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 80%' }} />
+          <img loading="lazy" src={manifestoConfig.image} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 80%' }} />
         </div>
         <div className="grid-tile" />
         <div className="grid-tile accent-tile grid-tile-accent" />
@@ -551,16 +551,16 @@ const ProductSpotlightSection = () => {
         {/* Row 2 */}
         <div className="grid-tile" />
         <div className="grid-tile product-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 30%' }} />
+          <img loading="lazy" src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 30%' }} />
         </div>
         <div className="grid-tile product-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 30%' }} />
+          <img loading="lazy" src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 30%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 20%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 20%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 20%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 20%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {productSpotlightConfig.titlePhrases[0] && (
@@ -571,19 +571,19 @@ const ProductSpotlightSection = () => {
         {/* Row 3 */}
         <div className="grid-tile" />
         <div className="grid-tile product-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 60%' }} />
+          <img loading="lazy" src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 60%' }} />
         </div>
         <div className="grid-tile product-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 60%' }} />
+          <img loading="lazy" src={productSpotlightConfig.productImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 60%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 50%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 50%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 50%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 50%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '80% 50%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '80% 50%' }} />
         </div>
         {productSpotlightConfig.titlePhrases.slice(1, 3).map((phrase, i) => (
           <div key={i} className="grid-tile text-tile"><span className="tile-text">{phrase}</span></div>
@@ -592,10 +592,10 @@ const ProductSpotlightSection = () => {
         {/* Row 4 */}
         <div className="grid-tile" /><div className="grid-tile" />
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 80%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 80%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 80%' }} />
+          <img loading="lazy" src={productSpotlightConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 80%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {productSpotlightConfig.titlePhrases.slice(3, 6).map((phrase, i) => (
@@ -719,16 +719,16 @@ const TextureSection = () => {
         {/* Row 2 */}
         <div className="grid-tile" />
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 30%' }} />
+          <img loading="lazy" src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 30%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 30%' }} />
+          <img loading="lazy" src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 30%' }} />
         </div>
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 30%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 30%' }} />
         </div>
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 30%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 30%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {textureConfig.titlePhrases.slice(0, 2).map((phrase, i) => (
@@ -738,19 +738,19 @@ const TextureSection = () => {
         {/* Row 3 */}
         <div className="grid-tile" />
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 60%' }} />
+          <img loading="lazy" src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 60%' }} />
         </div>
         <div className="grid-tile portrait-tile relative overflow-hidden">
-          <img src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 60%' }} />
+          <img loading="lazy" src={textureConfig.portraitImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 60%' }} />
         </div>
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 60%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 60%' }} />
         </div>
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 60%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 60%' }} />
         </div>
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '80% 60%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '80% 60%' }} />
         </div>
         {textureConfig.titlePhrases.slice(2, 4).map((phrase, i) => (
           <div key={i} className="grid-tile text-tile"><span className="tile-text">{phrase}</span></div>
@@ -759,10 +759,10 @@ const TextureSection = () => {
         {/* Row 4 */}
         <div className="grid-tile" /><div className="grid-tile" />
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '40% 80%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '40% 80%' }} />
         </div>
         <div className="grid-tile macro-tile relative overflow-hidden">
-          <img src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '70% 80%' }} />
+          <img loading="lazy" src={textureConfig.macroImage} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '70% 80%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {textureConfig.titlePhrases.slice(4, 6).map((phrase, i) => (
@@ -862,7 +862,7 @@ const ShadeRangeSection = () => {
               className="shade-card group relative bg-black border border-white/10 overflow-hidden"
             >
               <div className="aspect-square relative overflow-hidden">
-                <img
+                <img loading="lazy"
                   src={shade.image}
                   alt={shade.name}
                   className="w-full h-full object-cover filter grayscale contrast-125 group-hover:scale-105 transition-transform duration-500"
@@ -957,16 +957,16 @@ const FinalStatementSection = () => {
         {/* Row 2 */}
         <div className="grid-tile" />
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 30%' }} />
+          <img loading="lazy" src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 30%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 30%' }} />
+          <img loading="lazy" src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 30%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 30%' }} />
+          <img loading="lazy" src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 30%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 30%' }} />
+          <img loading="lazy" src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 30%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {finalStatementConfig.phrases.slice(0, 2).map((phrase, i) => (
@@ -976,16 +976,16 @@ const FinalStatementSection = () => {
         {/* Row 3 */}
         <div className="grid-tile" />
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 60%' }} />
+          <img loading="lazy" src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '20% 60%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 60%' }} />
+          <img loading="lazy" src={finalStatementConfig.image1} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '50% 60%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 60%' }} />
+          <img loading="lazy" src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '30% 60%' }} />
         </div>
         <div className="grid-tile image-tile relative overflow-hidden">
-          <img src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 60%' }} />
+          <img loading="lazy" src={finalStatementConfig.image2} alt="" className="image-slice absolute inset-0" style={{ objectPosition: '60% 60%' }} />
         </div>
         <div className="grid-tile accent-tile grid-tile-accent" />
         {finalStatementConfig.phrases.slice(2, 4).map((phrase, i) => (

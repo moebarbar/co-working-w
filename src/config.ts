@@ -29,7 +29,7 @@ export interface HeroConfig {
 }
 
 export const heroConfig: HeroConfig = {
-  heroImage: "images/hero_workspace.jpg",
+  heroImage: "images/hero_workspace_v2.png",
   titleText: "INNOVATION",
   subtitleLabel: "Next-Gen Workspace · HTX",
   ctaText: "Unlock Access",
@@ -123,7 +123,7 @@ export const shadeRangeConfig: ShadeRangeConfig = {
     { name: "Hot Desk", image: "images/space_hotdesk.jpg" },
     { name: "Dedicated Desk", image: "images/space_dedicated.jpg" },
     { name: "Private Office", image: "images/space_office.jpg" },
-    { name: "Meeting Room", image: "images/space_meeting.jpg" },
+    { name: "Meeting Room", image: "images/space_meeting_v2.png" },
     { name: "Event Space", image: "images/space_event.jpg" },
     { name: "Phone Booth", image: "images/space_phone.jpg" },
   ],
@@ -141,7 +141,7 @@ export interface FinalStatementConfig {
 
 export const finalStatementConfig: FinalStatementConfig = {
   image1: "images/closing_community.jpg",
-  image2: "images/closing_focus.jpg",
+  image2: "images/closing_focus_v2.png",
   phrases: [
     "JOIN",
     "THE",
