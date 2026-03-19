@@ -42,7 +42,7 @@ export interface ManifestoConfig {
 }
 
 export const manifestoConfig: ManifestoConfig = {
-  image: "images/manifesto_collab.jpg",
+  image: "images/manifesto_collab_v2.png",
   phrases: [
     "BUILD",
     "HARD",
@@ -66,8 +66,8 @@ export interface ProductSpotlightConfig {
 }
 
 export const productSpotlightConfig: ProductSpotlightConfig = {
-  productImage: "images/spotlight_desk.jpg",
-  portraitImage: "images/spotlight_member.jpg",
+  productImage: "images/spotlight_desk_v2.png",
+  portraitImage: "images/spotlight_member_v2.png",
   titlePhrases: [
     "OWN",
     "YOUR",
@@ -89,8 +89,8 @@ export interface TextureConfig {
 }
 
 export const textureConfig: TextureConfig = {
-  portraitImage: "images/texture_lounge.jpg",
-  macroImage: "images/texture_detail.jpg",
+  portraitImage: "images/texture_lounge_v2.png",
+  macroImage: "images/texture_detail_v2.png",
   titlePhrases: [
     "MADE",
     "FOR",
@@ -120,12 +120,12 @@ export const shadeRangeConfig: ShadeRangeConfig = {
   heading: ["CHOOSE", "YOUR"],
   headingAccent: "FUTURE",
   shades: [
-    { name: "Hot Desk", image: "images/space_hotdesk.jpg" },
-    { name: "Dedicated Desk", image: "images/space_dedicated.jpg" },
-    { name: "Private Office", image: "images/space_office.jpg" },
+    { name: "Hot Desk", image: "images/space_hotdesk_v2.png" },
+    { name: "Dedicated Desk", image: "images/space_dedicated_v2.png" },
+    { name: "Private Office", image: "images/space_office_v2.png" },
     { name: "Meeting Room", image: "images/space_meeting_v2.png" },
-    { name: "Event Space", image: "images/space_event.jpg" },
-    { name: "Phone Booth", image: "images/space_phone.jpg" },
+    { name: "Event Space", image: "images/space_event_v2.png" },
+    { name: "Phone Booth", image: "images/space_phone_v2.png" },
   ],
   price: "Scale fast",
   ctaText: "Apply Now",
@@ -140,7 +140,7 @@ export interface FinalStatementConfig {
 }
 
 export const finalStatementConfig: FinalStatementConfig = {
-  image1: "images/closing_community.jpg",
+  image1: "images/closing_community_v2.png",
   image2: "images/closing_focus_v2.png",
   phrases: [
     "JOIN",
